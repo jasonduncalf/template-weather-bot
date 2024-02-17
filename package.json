@@ -1,0 +1,19 @@
+{
+  "name": "template-weather-bot",
+  "version": "0.0.1",
+  "description": "Quick sample weather bot skill using Alexa Conversations ACDL.",
+  "dependencies": {
+    "@alexa/acdl": "^0.1.19"
+  },
+  "scripts": {
+    "acdl-compile": "acc",
+    "acdl-package": "acc package",
+    "acdl-version": "acc --version",
+    "askcli-version": "askx --version",
+    "clean": "rm -rf build",
+    "compile": "npm run acdl-compile",
+    "build": "npm run acdl-package",
+    "deploy": "askx deploy"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt"
+}
