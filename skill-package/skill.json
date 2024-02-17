@@ -11,6 +11,16 @@
           ],
           "name": "template-weather-bot",
           "description": "Sample Full Description"
+        },
+        "en-GB": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open my weather bot",
+            "hello",
+            "help"
+          ],
+          "name": "template-weather-bot",
+          "description": "Sample Full Description"
         }
       },
       "isAvailableWorldwide": true,
